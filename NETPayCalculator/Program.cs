@@ -1,4 +1,4 @@
-﻿//PROGRAM TO CALCULATE NET PAY
+﻿//PROGRAM TO CALCULATE NET PAY IN UGANDA SHILLINGS
 
 using System;
 
@@ -9,13 +9,13 @@ class NETPayCalculator
         double basicPay, allowance, grossPay, netPay, paye;
         double nssfEmployee, nssfEmployer, totalNSSF, totalDeductions;
 
-        Console.WriteLine("NET PAY CALCULATOR.");
+        Console.WriteLine("UGX NET PAY CALCULATOR.");
         Console.WriteLine(" ");
 
-        Console.Write("Enter your Basic Pay: ");
+        Console.Write("Enter your basic pay: ");
         basicPay = float.Parse(Console.ReadLine());
 
-        Console.Write("Enter Allowances: ");
+        Console.Write("Enter allowances: ");
         allowance = float.Parse(Console.ReadLine());
 
         grossPay = (basicPay + allowance);
